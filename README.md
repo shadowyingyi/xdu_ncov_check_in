@@ -18,7 +18,7 @@
 
 1. 下载 <https://github.com/117503445/xdu_ncov_check_in/blob/master/main.py>
 
-2. 在最下面的 main_handler 填入信息，student_id 是学号，password 是西电一站式的密码。除此之外，强烈推荐填写 SCKEY 。这是基于 Server 酱的微信推送服务，只需要 1 分钟就可以完成注册，然后把 SCKEY 填入就可以收到每次签到情况的推送。<https://sc.ftqq.com/3.version>
+2. 在最下面的 main_handler 填入信息，student_id 是学号，password 是西电一站式的密码。除此之外，强烈推荐填写 SCKEY 。这是基于 Server 酱的微信推送服务，只需要 1 分钟就可以完成注册，然后把 SCKEY 填入就可以收到每次签到情况的推送。<https://sc.ftqq.com/3.version>，记得要修改geo_api_info里面的gps定位数据，元数据是在西电。
 
 3. 本地如果有 Python3 + requests 环境，可以先进行调试，观察输出是否正常，不调试也没大问题。
 
